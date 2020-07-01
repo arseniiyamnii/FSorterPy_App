@@ -1,0 +1,25 @@
+2 types of run :application and daemon
+  aplication type sort files only in working dirrectory
+  daemon run all time, and sort files immidietly
+program parse $HOME/.organizerc
+see monitoring dirs
+monitor them and sort files by some parameters like: type, creation time etc. 
+
+organizerc got blocks with paths, with todos,sorting patterns, and work
+example:
+```
+[paths]
+downloads=$HOME/Downloads
+
+
+[todos]
+move2img=`mv ./img`
+
+
+[patterns]
+img=[extension](".jpeg")
+
+
+[work]
+downloads (img) move2img
+```
