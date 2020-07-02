@@ -1,0 +1,12 @@
+[paths]
+./tests/testFiles/sortingDirs/first
+./test/testFiles/sortingDirs/second
+[todos]
+someTodo
+alsoTodo
+[patterns]
+somePattern
+alsoPattern
+[works]
+someWork
+alsoWork
